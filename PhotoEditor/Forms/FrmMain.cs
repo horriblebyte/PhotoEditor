@@ -147,7 +147,7 @@ namespace PhotoEditor.Forms {
         }
 
         private Bitmap CopyScreen() {
-            _screenBitmap = new Bitmap(Convert.ToInt32(TxtFocusAreaWidth.Text), Convert.ToInt32(TxtFocusAreaHeight.Text));
+            _screenBitmap = new Bitmap(_focusAreaWidth, _focusAreaHeight);
             _screenGraphics = Graphics.FromImage(_screenBitmap);
             _screenGraphics.CopyFromScreen(_focusArea.X, _focusArea.Y, 0, 0, _screenBitmap.Size);
             return _screenBitmap;
