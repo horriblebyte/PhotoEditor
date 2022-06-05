@@ -5,4 +5,4 @@ Description (TR): Emgu CV teknolojisini kullanarak iki görüntü arasındaki fa
 
 # Introduction (Tanıtım);
 
-![](https://i.ibb.co/X58V1rM/Photo-Editor-Introduction.gif)
+![](https://raw.githubusercontent.com/horriblebyte/ProjectScreenshots/main/PhotoEditor/PhotoEditor_Introduction_CSGO.gif)
